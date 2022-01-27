@@ -11,8 +11,8 @@
 	-fw-reg: 300;
 	--fw-bold: 900;
 
-	--clr-light: #fff;
-	--clr-dark: #303030;
+	--clr-light: #303030;
+	--clr-dark: #fff;
 	--clr-accent: #16e0bd;
 
 	--fs-h1: 3rem;
@@ -73,7 +73,7 @@ strong { font-weight: var(--fw-bold); }
 	display: inline-block;
 	padding: .5em 2.5em;
 	background: var(--clr-accent);
-	color: var(--clr-dark);
+	color: var(--clr-light);
 	text-decoration: none;
 	cursor: pointer;
 	font-size: .8rem;
@@ -106,6 +106,7 @@ h3 { font-size: var(--fs-h3) }
 .section__subtitle {
 	margin: 0;
 	font-size: var(--fs-h3);
+	color: var(--clr-light);
 }
 
 .section__subtitle--intro,
@@ -265,7 +266,7 @@ header {
 	background-image: url(../img/services-bg.jpg);
 	background-size: cover;
 	background-blend-mode: multiply;
-	color: var(--clr-light);
+	color: var(--clr-dark);
 	text-align: center;
 }
 
