@@ -349,6 +349,13 @@ header {
 	}
 }
 
+@media (max-width:  600px) {
+	.video {
+		width: 400px;
+		height: 300px;
+	}
+}
+
 .my-work {
 	background-color: var(--clr-dark);
 	color: var(--clr-light);
